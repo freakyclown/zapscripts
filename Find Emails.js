@@ -19,7 +19,7 @@ function scan(ps, msg, src) {
     url = msg.getRequestHeader().getURI().toString();
 
 	// tell the user in the console we are doing stuff
-    println('Finding email addresses under ' + url);
+    //println('Finding email addresses under ' + url);
 
     if (msg) {
         body = msg.getResponseBody().toString()
